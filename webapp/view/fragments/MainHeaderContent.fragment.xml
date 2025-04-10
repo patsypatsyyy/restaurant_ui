@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Bar>
+        <contentMiddle>
+            <Title text="{i18n>appTitle}"></Title>
+        </contentMiddle>
+        <contentRight>
+            <Button icon="sap-icon://message-popup" press="onHomePress" type="Transparent" tooltip="{i18n>homeButtonTooltip}"></Button>
+            <Button icon="sap-icon://customer" press="onHomePress" type="Transparent" tooltip="{i18n>homeButtonTooltip}"></Button>
+        </contentRight>
+    </Bar>
+</core:FragmentDefinition>
